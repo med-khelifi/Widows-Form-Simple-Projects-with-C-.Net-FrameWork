@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project8__cargame\\frmgamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|solutionrelative:frmgamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\frmgamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|solutionrelative:frmgamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project8__cargame\\gameoverdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|solutionrelative:gameoverdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project8__cargame\\playerlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|solutionrelative:playerlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project8__cargame\\gameoverdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA72B14-D2FA-4838-B309-1AC894F042FB}|Project8__CarGame.csproj|solutionrelative:gameoverdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAwDEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T13:38:38.227Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T12:54:19.374Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmGameScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\frmGameScreen.cs",
+              "RelativeDocumentMoniker": "frmGameScreen.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\frmGameScreen.cs [Design]",
+              "RelativeToolTip": "frmGameScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T14:43:27.688Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmGameScreen.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\frmGameScreen.cs",
+              "RelativeDocumentMoniker": "frmGameScreen.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\frmGameScreen.cs",
+              "RelativeToolTip": "frmGameScreen.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAuwLkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T14:44:14.402Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerList.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\PlayerList.cs",
+              "RelativeDocumentMoniker": "PlayerList.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\PlayerList.cs",
+              "RelativeToolTip": "PlayerList.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvw8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T15:17:41.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameOverDialog.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\GameOverDialog.cs",
+              "RelativeDocumentMoniker": "GameOverDialog.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\GameOverDialog.cs [Design]",
+              "RelativeToolTip": "GameOverDialog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:03:43.227Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameOverDialog.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\GameOverDialog.cs",
+              "RelativeDocumentMoniker": "GameOverDialog.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project8__CarGame\\GameOverDialog.cs",
+              "RelativeToolTip": "GameOverDialog.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T11:14:27.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

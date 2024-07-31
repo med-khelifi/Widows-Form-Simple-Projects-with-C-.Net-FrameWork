@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43FC60C7-40AD-4E7B-A250-E2B8A86172C9}|Project7__Who Wants To Be Millionaire.csproj|C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FC60C7-40AD-4E7B-A250-E2B8A86172C9}|Project7__Who Wants To Be Millionaire.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FC60C7-40AD-4E7B-A250-E2B8A86172C9}|Project7__Who Wants To Be Millionaire.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project7__who wants to be millionaire\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43FC60C7-40AD-4E7B-A250-E2B8A86172C9}|Project7__Who Wants To Be Millionaire.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FC60C7-40AD-4E7B-A250-E2B8A86172C9}|Project7__Who Wants To Be Millionaire.csproj|C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\endscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FC60C7-40AD-4E7B-A250-E2B8A86172C9}|Project7__Who Wants To Be Millionaire.csproj|solutionrelative:endscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FC60C7-40AD-4E7B-A250-E2B8A86172C9}|Project7__Who Wants To Be Millionaire.csproj|C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43FC60C7-40AD-4E7B-A250-E2B8A86172C9}|Project7__Who Wants To Be Millionaire.csproj|solutionrelative:startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FC60C7-40AD-4E7B-A250-E2B8A86172C9}|Project7__Who Wants To Be Millionaire.csproj|C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43FC60C7-40AD-4E7B-A250-E2B8A86172C9}|Project7__Who Wants To Be Millionaire.csproj|solutionrelative:startscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43FC60C7-40AD-4E7B-A250-E2B8A86172C9}|Project7__Who Wants To Be Millionaire.csproj|C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\endscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43FC60C7-40AD-4E7B-A250-E2B8A86172C9}|Project7__Who Wants To Be Millionaire.csproj|solutionrelative:endscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAApwLgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T13:51:10.207Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T10:06:31.913Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EndScreen.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\EndScreen.cs",
+              "RelativeDocumentMoniker": "EndScreen.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\EndScreen.cs",
+              "RelativeToolTip": "EndScreen.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAtwCQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-25T21:48:30.931Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StartScreen.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\StartScreen.cs",
+              "RelativeDocumentMoniker": "StartScreen.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\StartScreen.cs",
+              "RelativeToolTip": "StartScreen.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBEAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:08:57.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EndScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\EndScreen.cs",
+              "RelativeDocumentMoniker": "EndScreen.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\EndScreen.cs [Design]",
+              "RelativeToolTip": "EndScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:32:50.911Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\StartScreen.cs",
+              "RelativeDocumentMoniker": "StartScreen.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project7__Who Wants To Be Millionaire\\StartScreen.cs [Design]",
+              "RelativeToolTip": "StartScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T13:52:12.691Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

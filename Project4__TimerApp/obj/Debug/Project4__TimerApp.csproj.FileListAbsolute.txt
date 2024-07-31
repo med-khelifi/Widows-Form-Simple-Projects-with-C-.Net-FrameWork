@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\bin\Debug\Project4__TimerApp.exe.config
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\bin\Debug\Project4__TimerApp.exe
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\bin\Debug\Project4__TimerApp.pdb
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\obj\Debug\Project4__TimerApp.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\obj\Debug\Project4__TimerApp.Form1.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\obj\Debug\Project4__TimerApp.frmStopWatch.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\obj\Debug\Project4__TimerApp.Properties.Resources.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\obj\Debug\Project4__TimerApp.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\obj\Debug\Project4__TimerApp.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\obj\Debug\Project4.9B17F3FD.Up2Date
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\obj\Debug\Project4__TimerApp.exe
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\obj\Debug\Project4__TimerApp.pdb
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\obj\Debug\Project4__TimerApp.CountDown.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project4__TimerApp\bin\Debug\Guna.UI2.dll

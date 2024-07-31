@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\bin\Debug\Project9__BankManagementSystem.exe.config
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\bin\Debug\Project9__BankManagementSystem.exe
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\bin\Debug\Project9__BankManagementSystem.pdb
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\bin\Debug\Guna.UI2.dll
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.Properties.Resources.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9.3EF0E827.Up2Date
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.exe
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.pdb
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmLoginScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmMainScreen.resources

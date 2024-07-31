@@ -1,0 +1,16 @@
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\bin\Debug\Project7__Who Wants To Be Millionaire.exe.config
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\bin\Debug\Project7__Who Wants To Be Millionaire.exe
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\bin\Debug\Project7__Who Wants To Be Millionaire.pdb
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\bin\Debug\Guna.UI2.dll
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\obj\Debug\Project7__Who Wants To Be Millionaire.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\obj\Debug\Project7__Who_Wants_To_Be_Millionaire.Form1.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\obj\Debug\Project7__Who_Wants_To_Be_Millionaire.Properties.Resources.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\obj\Debug\Project7__Who Wants To Be Millionaire.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\obj\Debug\Project7__Who Wants To Be Millionaire.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\obj\Debug\Project7.D94F57E4.Up2Date
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\obj\Debug\Project7__Who Wants To Be Millionaire.exe
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\obj\Debug\Project7__Who Wants To Be Millionaire.pdb
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\obj\Debug\Project7__Who_Wants_To_Be_Millionaire.EndScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\obj\Debug\Project7__Who_Wants_To_Be_Millionaire.AskAudience.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\obj\Debug\Project7__Who_Wants_To_Be_Millionaire.CallFriend.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project7__Who Wants To Be Millionaire\obj\Debug\Project7__Who_Wants_To_Be_Millionaire.StartScreen.resources

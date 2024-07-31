@@ -1,0 +1,10 @@
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project1__FlappyBird\bin\Debug\Project1__FlappyBird.exe.config
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project1__FlappyBird\bin\Debug\Project1__FlappyBird.exe
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project1__FlappyBird\bin\Debug\Project1__FlappyBird.pdb
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project1__FlappyBird\obj\Debug\Project1__FlappyBird.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project1__FlappyBird\obj\Debug\Project1__FlappyBird.Form1.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project1__FlappyBird\obj\Debug\Project1__FlappyBird.Properties.Resources.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project1__FlappyBird\obj\Debug\Project1__FlappyBird.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project1__FlappyBird\obj\Debug\Project1__FlappyBird.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project1__FlappyBird\obj\Debug\Project1__FlappyBird.exe
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project1__FlappyBird\obj\Debug\Project1__FlappyBird.pdb

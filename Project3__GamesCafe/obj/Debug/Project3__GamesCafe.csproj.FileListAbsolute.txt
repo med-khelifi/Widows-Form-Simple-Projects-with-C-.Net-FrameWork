@@ -1,0 +1,10 @@
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project3__GamesCafe\bin\Debug\Project3__GamesCafe.exe.config
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project3__GamesCafe\bin\Debug\Project3__GamesCafe.exe
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project3__GamesCafe\bin\Debug\Project3__GamesCafe.pdb
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project3__GamesCafe\obj\Debug\Project3__GamesCafe.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project3__GamesCafe\obj\Debug\Project3__GamesCafe.Form1.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project3__GamesCafe\obj\Debug\Project3__GamesCafe.Properties.Resources.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project3__GamesCafe\obj\Debug\Project3__GamesCafe.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project3__GamesCafe\obj\Debug\Project3__GamesCafe.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project3__GamesCafe\obj\Debug\Project3__GamesCafe.exe
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project3__GamesCafe\obj\Debug\Project3__GamesCafe.pdb
