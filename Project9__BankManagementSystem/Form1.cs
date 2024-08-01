@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,10 +17,10 @@ namespace Project9__BankManagementSystem
         public frmLoginScreen()
         {
             InitializeComponent();
-            RestartForm();
+            ResetForm();
         }
 
-        private void RestartForm()
+        private void ResetForm()
         {
             txtPassword.PasswordChar = '*';
             isPasswordHidden = true;
@@ -27,6 +28,9 @@ namespace Project9__BankManagementSystem
 
             txtPassword.PlaceholderText = "Enter Your Password";
             txtUserName.PlaceholderText = "Enter Your User Name";
+
+            pbarLoadingLoginProgress.Visible = false;
+            btnLogin.Visible = true;
         }
 
         private void ShowHidePassword(object sender, EventArgs e)
@@ -52,10 +56,33 @@ namespace Project9__BankManagementSystem
             Application.Exit();
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
+        private async void btnLogin_Click(object sender, EventArgs e)
         {
-            frmMainScreen frm = new frmMainScreen(); 
-            frm.ShowDialog();
+            pbarLoadingLoginProgress.Visible = true;
+            btnLogin.Visible = false;
+            pbarLoadingLoginProgress.Start();
+            
+            await Task.Delay(3000);
+            pbarLoadingLoginProgress.Stop();
+
+            clsUsers CurrentUser;
+
+            if((CurrentUser = clsUsers.FindUser(txtUserName.Text,txtPassword.Text)) != null)
+            {
+                Global.CurrentUser = CurrentUser;
+                frmMainScreen frm = new frmMainScreen();
+                frm.ShowDialog();
+                ResetForm();
+               
+            }
+            else
+            {
+                MessageBox.Show("Wong UserName or Password Please Check Your Login Info And Try Again", "Login Faild", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                pbarLoadingLoginProgress.Visible = false;
+                btnLogin.Visible = true;
+            }
+            
         }
 
         private void guna2CirclePictureBox1_Click(object sender, EventArgs e)

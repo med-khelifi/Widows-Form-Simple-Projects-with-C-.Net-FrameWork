@@ -33,6 +33,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtUserName = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
+            this.pbarLoadingLoginProgress = new Guna.UI2.WinForms.Guna2ProgressIndicator();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -99,8 +100,8 @@
             this.txtUserName.ForeColor = System.Drawing.Color.White;
             this.txtUserName.HoverState.BorderColor = System.Drawing.Color.White;
             this.txtUserName.HoverState.Parent = this.txtUserName;
-            this.txtUserName.IconRight = global::Project9__BankManagementSystem.Properties.Resources.user__1_;
-            this.txtUserName.IconRightOffset = new System.Drawing.Point(20, 0);
+            this.txtUserName.IconLeft = global::Project9__BankManagementSystem.Properties.Resources.user__1_;
+            this.txtUserName.IconLeftOffset = new System.Drawing.Point(20, 0);
             this.txtUserName.Location = new System.Drawing.Point(70, 190);
             this.txtUserName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtUserName.Name = "txtUserName";
@@ -132,6 +133,8 @@
             this.txtPassword.ForeColor = System.Drawing.Color.White;
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.White;
             this.txtPassword.HoverState.Parent = this.txtPassword;
+            this.txtPassword.IconLeft = global::Project9__BankManagementSystem.Properties.Resources.padlock_1_;
+            this.txtPassword.IconLeftSize = new System.Drawing.Size(40, 40);
             this.txtPassword.IconRight = global::Project9__BankManagementSystem.Properties.Resources.hidden;
             this.txtPassword.IconRightOffset = new System.Drawing.Point(20, 0);
             this.txtPassword.Location = new System.Drawing.Point(70, 260);
@@ -147,12 +150,22 @@
             this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtPassword.IconRightClick += new System.EventHandler(this.ShowHidePassword);
             // 
+            // pbarLoadingLoginProgress
+            // 
+            this.pbarLoadingLoginProgress.CircleSize = 1F;
+            this.pbarLoadingLoginProgress.Location = new System.Drawing.Point(201, 328);
+            this.pbarLoadingLoginProgress.Name = "pbarLoadingLoginProgress";
+            this.pbarLoadingLoginProgress.ProgressColor = System.Drawing.Color.Turquoise;
+            this.pbarLoadingLoginProgress.Size = new System.Drawing.Size(76, 76);
+            this.pbarLoadingLoginProgress.TabIndex = 4;
+            // 
             // frmLoginScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
             this.ClientSize = new System.Drawing.Size(517, 444);
+            this.Controls.Add(this.pbarLoadingLoginProgress);
             this.Controls.Add(this.guna2CirclePictureBox1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnLogin);
@@ -176,6 +189,7 @@
         private Guna.UI2.WinForms.Guna2Button btnLogin;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2ProgressIndicator pbarLoadingLoginProgress;
     }
 }
 

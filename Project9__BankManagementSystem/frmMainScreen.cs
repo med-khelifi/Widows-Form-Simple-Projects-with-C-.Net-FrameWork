@@ -15,11 +15,18 @@ namespace Project9__BankManagementSystem
         public frmMainScreen()
         {
             InitializeComponent();
+            if(Global.CurrentUser != null)
+                lblCurrentUser.Text = "User : " + Global.CurrentUser.GetFullName();
+            else
+                lblCurrentUser.Text = "User : No User Loged in";
+
+            lblCurrentTime.Text = DateTime.Now.ToString();
         }
 
-        private void tabPage2_Click(object sender, EventArgs e)
+        private void btnLogOutCliked(object sender, EventArgs e)
         {
-
+            this.Close();
+            Global.CurrentUser = null;
         }
     }
 }
