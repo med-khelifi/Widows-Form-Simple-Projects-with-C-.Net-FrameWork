@@ -11,3 +11,7 @@ C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects
 C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.pdb
 C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmLoginScreen.resources
 C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmMainScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmAddNewUserScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmManageUsersScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmShowUsersList.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmUpdateUserScreen.resources

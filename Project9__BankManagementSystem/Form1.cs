@@ -29,6 +29,9 @@ namespace Project9__BankManagementSystem
             txtPassword.PlaceholderText = "Enter Your Password";
             txtUserName.PlaceholderText = "Enter Your User Name";
 
+            txtPassword.Text = "";
+            txtUserName.Text = "";
+
             pbarLoadingLoginProgress.Visible = false;
             btnLogin.Visible = true;
         }

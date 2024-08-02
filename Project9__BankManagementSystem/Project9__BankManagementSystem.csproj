@@ -59,11 +59,35 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAddNewUserScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNewUserScreen.Designer.cs">
+      <DependentUpon>frmAddNewUserScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMainScreen.Designer.cs">
       <DependentUpon>frmMainScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageUsersScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageUsersScreen.Designer.cs">
+      <DependentUpon>frmManageUsersScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowUsersList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowUsersList.Designer.cs">
+      <DependentUpon>frmShowUsersList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateUserScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateUserScreen.Designer.cs">
+      <DependentUpon>frmUpdateUserScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Global.cs" />
     <Compile Include="Program.cs" />
@@ -71,8 +95,20 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNewUserScreen.resx">
+      <DependentUpon>frmAddNewUserScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMainScreen.resx">
       <DependentUpon>frmMainScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageUsersScreen.resx">
+      <DependentUpon>frmManageUsersScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowUsersList.resx">
+      <DependentUpon>frmShowUsersList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateUserScreen.resx">
+      <DependentUpon>frmUpdateUserScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

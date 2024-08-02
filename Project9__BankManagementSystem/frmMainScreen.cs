@@ -28,5 +28,11 @@ namespace Project9__BankManagementSystem
             this.Close();
             Global.CurrentUser = null;
         }
+
+        private void ManageUser_Cliked(object sender, EventArgs e)
+        {
+            frmManageUsersScreen frm = new frmManageUsersScreen();
+            frm.ShowDialog();
+        }
     }
 }

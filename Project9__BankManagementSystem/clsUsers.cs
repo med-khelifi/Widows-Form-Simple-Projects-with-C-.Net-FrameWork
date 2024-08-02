@@ -101,5 +101,10 @@ namespace Project9__BankManagementSystem
 
             return new clsUsers(SplitedRecord[0], SplitedRecord[1], SplitedRecord[2], SplitedRecord[3], SplitedRecord[4], SplitedRecord[5], Convert.ToInt32( SplitedRecord[6]));
         }
+    
+        public static List<clsUsers> GetUsersList()
+        {
+            return LoadUsersDataFromFile();
+        }
     }
 }
