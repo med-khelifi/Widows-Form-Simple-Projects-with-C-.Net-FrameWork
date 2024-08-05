@@ -8,10 +8,10 @@ namespace Project9__BankManagementSystem
 {
     internal class clsPerson
     {
-        private string _FirstName { set; get; }
-        private string _LastName { set; get; }
-        private string _Phone { set; get; }
-        private string _Email { set; get; }
+        public string _FirstName { set; get; }
+        public string _LastName { set; get; }
+        public string _Phone { set; get; }
+        public string _Email { set; get; }
 
         public clsPerson(string FirstName, string LastName, string Phone, string Email)
         {

@@ -29,13 +29,16 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnDeleteUser = new Guna.UI2.WinForms.Guna2Button();
             this.btnUpdateUser = new Guna.UI2.WinForms.Guna2Button();
             this.btnAddNewUser = new Guna.UI2.WinForms.Guna2Button();
             this.btnUserList = new Guna.UI2.WinForms.Guna2Button();
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.lblAccess = new System.Windows.Forms.Label();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1.SuspendLayout();
+            this.mainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -45,6 +48,7 @@
             this.panel1.BackColor = System.Drawing.Color.DimGray;
             this.panel1.Controls.Add(this.guna2PictureBox2);
             this.panel1.Controls.Add(this.guna2PictureBox1);
+            this.panel1.Controls.Add(this.btnDeleteUser);
             this.panel1.Controls.Add(this.btnUpdateUser);
             this.panel1.Controls.Add(this.btnAddNewUser);
             this.panel1.Controls.Add(this.btnUserList);
@@ -52,8 +56,26 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(197, 461);
+            this.panel1.Size = new System.Drawing.Size(197, 519);
             this.panel1.TabIndex = 0;
+            // 
+            // btnDeleteUser
+            // 
+            this.btnDeleteUser.CheckedState.Parent = this.btnDeleteUser;
+            this.btnDeleteUser.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDeleteUser.CustomImages.Parent = this.btnDeleteUser;
+            this.btnDeleteUser.FillColor = System.Drawing.Color.Transparent;
+            this.btnDeleteUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteUser.ForeColor = System.Drawing.Color.White;
+            this.btnDeleteUser.HoverState.Parent = this.btnDeleteUser;
+            this.btnDeleteUser.Location = new System.Drawing.Point(31, 409);
+            this.btnDeleteUser.Name = "btnDeleteUser";
+            this.btnDeleteUser.ShadowDecoration.Parent = this.btnDeleteUser;
+            this.btnDeleteUser.Size = new System.Drawing.Size(128, 54);
+            this.btnDeleteUser.TabIndex = 0;
+            this.btnDeleteUser.Text = "Delete User";
+            this.btnDeleteUser.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDeleteUser.Click += new System.EventHandler(this.btnDeleteUser_Click);
             // 
             // btnUpdateUser
             // 
@@ -64,7 +86,7 @@
             this.btnUpdateUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateUser.ForeColor = System.Drawing.Color.White;
             this.btnUpdateUser.HoverState.Parent = this.btnUpdateUser;
-            this.btnUpdateUser.Location = new System.Drawing.Point(31, 313);
+            this.btnUpdateUser.Location = new System.Drawing.Point(31, 351);
             this.btnUpdateUser.Name = "btnUpdateUser";
             this.btnUpdateUser.ShadowDecoration.Parent = this.btnUpdateUser;
             this.btnUpdateUser.Size = new System.Drawing.Size(128, 54);
@@ -82,7 +104,7 @@
             this.btnAddNewUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddNewUser.ForeColor = System.Drawing.Color.White;
             this.btnAddNewUser.HoverState.Parent = this.btnAddNewUser;
-            this.btnAddNewUser.Location = new System.Drawing.Point(31, 261);
+            this.btnAddNewUser.Location = new System.Drawing.Point(31, 293);
             this.btnAddNewUser.Name = "btnAddNewUser";
             this.btnAddNewUser.ShadowDecoration.Parent = this.btnAddNewUser;
             this.btnAddNewUser.Size = new System.Drawing.Size(128, 54);
@@ -100,12 +122,12 @@
             this.btnUserList.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUserList.ForeColor = System.Drawing.Color.White;
             this.btnUserList.HoverState.Parent = this.btnUserList;
-            this.btnUserList.Location = new System.Drawing.Point(31, 200);
+            this.btnUserList.Location = new System.Drawing.Point(31, 235);
             this.btnUserList.Name = "btnUserList";
             this.btnUserList.ShadowDecoration.Parent = this.btnUserList;
             this.btnUserList.Size = new System.Drawing.Size(128, 54);
             this.btnUserList.TabIndex = 0;
-            this.btnUserList.Text = "User List";
+            this.btnUserList.Text = "Users List";
             this.btnUserList.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnUserList.Click += new System.EventHandler(this.btnUserList_Click);
             // 
@@ -113,11 +135,24 @@
             // 
             this.mainPanel.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.mainPanel.AutoSize = true;
+            this.mainPanel.Controls.Add(this.lblAccess);
+            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainPanel.Location = new System.Drawing.Point(197, 0);
             this.mainPanel.Margin = new System.Windows.Forms.Padding(0);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(587, 461);
+            this.mainPanel.Size = new System.Drawing.Size(640, 519);
             this.mainPanel.TabIndex = 2;
+            // 
+            // lblAccess
+            // 
+            this.lblAccess.AutoSize = true;
+            this.lblAccess.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAccess.ForeColor = System.Drawing.Color.Red;
+            this.lblAccess.Location = new System.Drawing.Point(148, 215);
+            this.lblAccess.Name = "lblAccess";
+            this.lblAccess.Size = new System.Drawing.Size(348, 30);
+            this.lblAccess.TabIndex = 4;
+            this.lblAccess.Text = "You Don\'t Permissions To Access";
             // 
             // guna2PictureBox2
             // 
@@ -146,7 +181,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(784, 461);
+            this.ClientSize = new System.Drawing.Size(837, 519);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -154,6 +189,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmManageUsersScreen";
             this.panel1.ResumeLayout(false);
+            this.mainPanel.ResumeLayout(false);
+            this.mainPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -170,5 +207,7 @@
         private Guna.UI2.WinForms.Guna2Button btnAddNewUser;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
+        private System.Windows.Forms.Label lblAccess;
+        private Guna.UI2.WinForms.Guna2Button btnDeleteUser;
     }
 }

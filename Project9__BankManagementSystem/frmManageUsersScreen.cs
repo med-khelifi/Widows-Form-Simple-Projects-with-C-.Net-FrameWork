@@ -45,5 +45,10 @@ namespace Project9__BankManagementSystem
         {
             ShowFormInPanel(new frmUpdateUserScreen());
         }
+
+        private void btnDeleteUser_Click(object sender, EventArgs e)
+        {
+            ShowFormInPanel(new frmDeleteUser());
+        }
     }
 }

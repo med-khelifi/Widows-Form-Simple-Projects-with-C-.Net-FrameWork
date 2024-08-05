@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clsBankClient.cs" />
     <Compile Include="clsPerson.cs" />
     <Compile Include="clsUsers.cs" />
     <Compile Include="Form1.cs">
@@ -59,11 +60,23 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAddNewClientScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNewClientScreen.Designer.cs">
+      <DependentUpon>frmAddNewClientScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAddNewUserScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmAddNewUserScreen.Designer.cs">
       <DependentUpon>frmAddNewUserScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteUser.Designer.cs">
+      <DependentUpon>frmDeleteUser.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMainScreen.cs">
       <SubType>Form</SubType>
@@ -71,11 +84,29 @@
     <Compile Include="frmMainScreen.Designer.cs">
       <DependentUpon>frmMainScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmManageClientsScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageClientsScreen.Designer.cs">
+      <DependentUpon>frmManageClientsScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmManageUsersScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmManageUsersScreen.Designer.cs">
       <DependentUpon>frmManageUsersScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPermissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPermissions.Designer.cs">
+      <DependentUpon>frmPermissions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowClientList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowClientList.Designer.cs">
+      <DependentUpon>frmShowClientList.cs</DependentUpon>
     </Compile>
     <Compile Include="frmShowUsersList.cs">
       <SubType>Form</SubType>
@@ -95,14 +126,29 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNewClientScreen.resx">
+      <DependentUpon>frmAddNewClientScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAddNewUserScreen.resx">
       <DependentUpon>frmAddNewUserScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteUser.resx">
+      <DependentUpon>frmDeleteUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMainScreen.resx">
       <DependentUpon>frmMainScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmManageClientsScreen.resx">
+      <DependentUpon>frmManageClientsScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmManageUsersScreen.resx">
       <DependentUpon>frmManageUsersScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPermissions.resx">
+      <DependentUpon>frmPermissions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowClientList.resx">
+      <DependentUpon>frmShowClientList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmShowUsersList.resx">
       <DependentUpon>frmShowUsersList.cs</DependentUpon>

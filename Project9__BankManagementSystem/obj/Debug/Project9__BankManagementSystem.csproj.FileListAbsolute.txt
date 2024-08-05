@@ -15,3 +15,8 @@ C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects
 C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmManageUsersScreen.resources
 C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmShowUsersList.resources
 C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmUpdateUserScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmPermissions.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmDeleteUser.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmManageClientsScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmShowClientList.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmAddNewClientScreen.resources

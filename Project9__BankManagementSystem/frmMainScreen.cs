@@ -34,5 +34,11 @@ namespace Project9__BankManagementSystem
             frmManageUsersScreen frm = new frmManageUsersScreen();
             frm.ShowDialog();
         }
+
+        private void ManageClients_Clik(object sender, EventArgs e)
+        {
+            frmManageClientsScreen frm = new frmManageClientsScreen();
+            frm.ShowDialog();
+        }
     }
 }
