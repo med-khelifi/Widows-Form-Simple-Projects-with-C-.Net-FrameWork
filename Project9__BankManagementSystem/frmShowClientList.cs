@@ -37,7 +37,7 @@ namespace Project9__BankManagementSystem
             }
             else
             {
-                MessageBox.Show("No Clients data available to display.");
+               // MessageBox.Show("No Clients data available to display.");
             }
         }
 

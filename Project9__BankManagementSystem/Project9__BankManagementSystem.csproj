@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsBankClient.cs" />
+    <Compile Include="clsCurrency.cs" />
     <Compile Include="clsPerson.cs" />
     <Compile Include="clsUsers.cs" />
     <Compile Include="Form1.cs">
@@ -59,6 +60,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAccessDenied.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAccessDenied.Designer.cs">
+      <DependentUpon>frmAccessDenied.cs</DependentUpon>
     </Compile>
     <Compile Include="frmAddNewClientScreen.cs">
       <SubType>Form</SubType>
@@ -72,11 +79,23 @@
     <Compile Include="frmAddNewUserScreen.Designer.cs">
       <DependentUpon>frmAddNewUserScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDeleteClientScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteClientScreen.Designer.cs">
+      <DependentUpon>frmDeleteClientScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDeleteUser.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmDeleteUser.Designer.cs">
       <DependentUpon>frmDeleteUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDepositScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDepositScreen.Designer.cs">
+      <DependentUpon>frmDepositScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMainScreen.cs">
       <SubType>Form</SubType>
@@ -89,6 +108,24 @@
     </Compile>
     <Compile Include="frmManageClientsScreen.Designer.cs">
       <DependentUpon>frmManageClientsScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageCurrencyScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageCurrencyScreen.Designer.cs">
+      <DependentUpon>frmManageCurrencyScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageLoggingHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageLoggingHistory.Designer.cs">
+      <DependentUpon>frmManageLoggingHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageTransactionScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageTransactionScreen.Designer.cs">
+      <DependentUpon>frmManageTransactionScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="frmManageUsersScreen.cs">
       <SubType>Form</SubType>
@@ -108,11 +145,41 @@
     <Compile Include="frmShowClientList.Designer.cs">
       <DependentUpon>frmShowClientList.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmShowCurrenciesList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowCurrenciesList.Designer.cs">
+      <DependentUpon>frmShowCurrenciesList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowLoggingHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowLoggingHistory.Designer.cs">
+      <DependentUpon>frmShowLoggingHistory.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmShowUsersList.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmShowUsersList.Designer.cs">
       <DependentUpon>frmShowUsersList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowTransferLogsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowTransferLogsList.Designer.cs">
+      <DependentUpon>frmShowTransferLogsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTransferScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransferScreen.Designer.cs">
+      <DependentUpon>frmTransferScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateClientScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateClientScreen.Designer.cs">
+      <DependentUpon>frmUpdateClientScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="frmUpdateUserScreen.cs">
       <SubType>Form</SubType>
@@ -120,11 +187,20 @@
     <Compile Include="frmUpdateUserScreen.Designer.cs">
       <DependentUpon>frmUpdateUserScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmWithDrawScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWithDrawScreen.Designer.cs">
+      <DependentUpon>frmWithDrawScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Global.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAccessDenied.resx">
+      <DependentUpon>frmAccessDenied.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddNewClientScreen.resx">
       <DependentUpon>frmAddNewClientScreen.cs</DependentUpon>
@@ -132,14 +208,29 @@
     <EmbeddedResource Include="frmAddNewUserScreen.resx">
       <DependentUpon>frmAddNewUserScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteClientScreen.resx">
+      <DependentUpon>frmDeleteClientScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDeleteUser.resx">
       <DependentUpon>frmDeleteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDepositScreen.resx">
+      <DependentUpon>frmDepositScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMainScreen.resx">
       <DependentUpon>frmMainScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmManageClientsScreen.resx">
       <DependentUpon>frmManageClientsScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageCurrencyScreen.resx">
+      <DependentUpon>frmManageCurrencyScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageLoggingHistory.resx">
+      <DependentUpon>frmManageLoggingHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageTransactionScreen.resx">
+      <DependentUpon>frmManageTransactionScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmManageUsersScreen.resx">
       <DependentUpon>frmManageUsersScreen.cs</DependentUpon>
@@ -150,11 +241,29 @@
     <EmbeddedResource Include="frmShowClientList.resx">
       <DependentUpon>frmShowClientList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmShowCurrenciesList.resx">
+      <DependentUpon>frmShowCurrenciesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowLoggingHistory.resx">
+      <DependentUpon>frmShowLoggingHistory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmShowUsersList.resx">
       <DependentUpon>frmShowUsersList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmShowTransferLogsList.resx">
+      <DependentUpon>frmShowTransferLogsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransferScreen.resx">
+      <DependentUpon>frmTransferScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateClientScreen.resx">
+      <DependentUpon>frmUpdateClientScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmUpdateUserScreen.resx">
       <DependentUpon>frmUpdateUserScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWithDrawScreen.resx">
+      <DependentUpon>frmWithDrawScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -237,6 +346,8 @@
     <None Include="Resources\transfer.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\arrow.png" />
+    <None Include="Resources\restriction.png" />
     <Content Include="txtFiles\Users.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

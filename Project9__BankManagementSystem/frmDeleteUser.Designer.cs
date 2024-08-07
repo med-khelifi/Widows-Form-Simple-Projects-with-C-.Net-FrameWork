@@ -53,7 +53,7 @@
             this.btnDeleteUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteUser.ForeColor = System.Drawing.Color.White;
             this.btnDeleteUser.HoverState.Parent = this.btnDeleteUser;
-            this.btnDeleteUser.Location = new System.Drawing.Point(514, 412);
+            this.btnDeleteUser.Location = new System.Drawing.Point(481, 396);
             this.btnDeleteUser.Name = "btnDeleteUser";
             this.btnDeleteUser.ShadowDecoration.Parent = this.btnDeleteUser;
             this.btnDeleteUser.Size = new System.Drawing.Size(145, 46);
@@ -67,12 +67,12 @@
             this.LoginHistory.AutoSize = true;
             this.LoginHistory.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoginHistory.ForeColor = System.Drawing.Color.White;
-            this.LoginHistory.Location = new System.Drawing.Point(301, 19);
+            this.LoginHistory.Location = new System.Drawing.Point(252, 9);
             this.LoginHistory.Name = "LoginHistory";
-            this.LoginHistory.Size = new System.Drawing.Size(131, 30);
+            this.LoginHistory.Size = new System.Drawing.Size(143, 30);
             this.LoginHistory.TabIndex = 25;
             this.LoginHistory.Tag = "";
-            this.LoginHistory.Text = "Delete User";
+            this.LoginHistory.Text = "Delete User :";
             // 
             // txtPermissions
             // 
@@ -97,7 +97,7 @@
             this.txtPermissions.HoverState.BorderColor = System.Drawing.Color.White;
             this.txtPermissions.HoverState.Parent = this.txtPermissions;
             this.txtPermissions.IconLeftOffset = new System.Drawing.Point(20, 0);
-            this.txtPermissions.Location = new System.Drawing.Point(125, 412);
+            this.txtPermissions.Location = new System.Drawing.Point(84, 338);
             this.txtPermissions.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPermissions.Name = "txtPermissions";
             this.txtPermissions.PasswordChar = '\0';
@@ -132,7 +132,7 @@
             this.txtPhoneNumber.HoverState.BorderColor = System.Drawing.Color.White;
             this.txtPhoneNumber.HoverState.Parent = this.txtPhoneNumber;
             this.txtPhoneNumber.IconLeftOffset = new System.Drawing.Point(20, 0);
-            this.txtPhoneNumber.Location = new System.Drawing.Point(125, 345);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(84, 282);
             this.txtPhoneNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
             this.txtPhoneNumber.PasswordChar = '\0';
@@ -168,7 +168,7 @@
             this.txtLastName.HoverState.BorderColor = System.Drawing.Color.White;
             this.txtLastName.HoverState.Parent = this.txtLastName;
             this.txtLastName.IconLeftOffset = new System.Drawing.Point(20, 0);
-            this.txtLastName.Location = new System.Drawing.Point(406, 210);
+            this.txtLastName.Location = new System.Drawing.Point(365, 170);
             this.txtLastName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.PasswordChar = '\0';
@@ -204,7 +204,7 @@
             this.txtFirstName.HoverState.BorderColor = System.Drawing.Color.White;
             this.txtFirstName.HoverState.Parent = this.txtFirstName;
             this.txtFirstName.IconLeftOffset = new System.Drawing.Point(20, 0);
-            this.txtFirstName.Location = new System.Drawing.Point(125, 210);
+            this.txtFirstName.Location = new System.Drawing.Point(84, 170);
             this.txtFirstName.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.PasswordChar = '\0';
@@ -240,7 +240,7 @@
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.White;
             this.txtPassword.HoverState.Parent = this.txtPassword;
             this.txtPassword.IconLeftOffset = new System.Drawing.Point(20, 0);
-            this.txtPassword.Location = new System.Drawing.Point(406, 140);
+            this.txtPassword.Location = new System.Drawing.Point(365, 114);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '\0';
@@ -276,7 +276,7 @@
             this.txtEmail.HoverState.BorderColor = System.Drawing.Color.White;
             this.txtEmail.HoverState.Parent = this.txtEmail;
             this.txtEmail.IconLeftOffset = new System.Drawing.Point(20, 0);
-            this.txtEmail.Location = new System.Drawing.Point(125, 279);
+            this.txtEmail.Location = new System.Drawing.Point(84, 226);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.PasswordChar = '\0';
@@ -311,7 +311,9 @@
             this.txtSearchUser.HoverState.BorderColor = System.Drawing.Color.White;
             this.txtSearchUser.HoverState.Parent = this.txtSearchUser;
             this.txtSearchUser.IconLeftOffset = new System.Drawing.Point(20, 0);
-            this.txtSearchUser.Location = new System.Drawing.Point(125, 67);
+            this.txtSearchUser.IconRight = global::Project9__BankManagementSystem.Properties.Resources.search;
+            this.txtSearchUser.IconRightOffset = new System.Drawing.Point(20, 0);
+            this.txtSearchUser.Location = new System.Drawing.Point(84, 58);
             this.txtSearchUser.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSearchUser.Name = "txtSearchUser";
             this.txtSearchUser.PasswordChar = '\0';
@@ -348,7 +350,7 @@
             this.txtAccNumber.HoverState.BorderColor = System.Drawing.Color.White;
             this.txtAccNumber.HoverState.Parent = this.txtAccNumber;
             this.txtAccNumber.IconLeftOffset = new System.Drawing.Point(20, 0);
-            this.txtAccNumber.Location = new System.Drawing.Point(125, 140);
+            this.txtAccNumber.Location = new System.Drawing.Point(84, 114);
             this.txtAccNumber.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtAccNumber.Name = "txtAccNumber";
             this.txtAccNumber.PasswordChar = '\0';
@@ -366,7 +368,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(796, 545);
+            this.ClientSize = new System.Drawing.Size(715, 465);
             this.Controls.Add(this.btnDeleteUser);
             this.Controls.Add(this.LoginHistory);
             this.Controls.Add(this.txtPermissions);

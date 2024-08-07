@@ -59,6 +59,7 @@
             this.btnDeleteClient.TabIndex = 0;
             this.btnDeleteClient.Text = "Delete Client";
             this.btnDeleteClient.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDeleteClient.Click += new System.EventHandler(this.btnDeleteClient_Click);
             // 
             // btnUpdateClient
             // 
@@ -76,6 +77,7 @@
             this.btnUpdateClient.TabIndex = 0;
             this.btnUpdateClient.Text = "Update Client";
             this.btnUpdateClient.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnUpdateClient.Click += new System.EventHandler(this.btnUpdateClient_Click);
             // 
             // btnAddNewClient
             // 
@@ -123,7 +125,7 @@
             this.mainPanel.Location = new System.Drawing.Point(197, 0);
             this.mainPanel.Margin = new System.Windows.Forms.Padding(0);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(624, 480);
+            this.mainPanel.Size = new System.Drawing.Size(640, 519);
             this.mainPanel.TabIndex = 4;
             // 
             // lblAccess
@@ -150,19 +152,20 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(197, 480);
+            this.panel1.Size = new System.Drawing.Size(197, 519);
             this.panel1.TabIndex = 3;
             // 
             // guna2PictureBox2
             // 
-            this.guna2PictureBox2.Image = global::Project9__BankManagementSystem.Properties.Resources._003_button;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(12, 12);
+            this.guna2PictureBox2.Image = global::Project9__BankManagementSystem.Properties.Resources.arrow;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(31, 12);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
-            this.guna2PictureBox2.Size = new System.Drawing.Size(36, 38);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(50, 50);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 2;
             this.guna2PictureBox2.TabStop = false;
+            this.guna2PictureBox2.Click += new System.EventHandler(this.guna2PictureBox2_Click);
             // 
             // guna2PictureBox1
             // 
@@ -180,7 +183,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(821, 480);
+            this.ClientSize = new System.Drawing.Size(837, 519);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

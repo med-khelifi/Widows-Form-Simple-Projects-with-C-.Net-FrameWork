@@ -106,6 +106,7 @@
             this.label1.Size = new System.Drawing.Size(156, 21);
             this.label1.TabIndex = 2;
             this.label1.Text = "Currency Exchange";
+            this.label1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
             // guna2PictureBox1
             // 
@@ -118,6 +119,7 @@
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
             // guna2Panel2
             // 
@@ -166,6 +168,7 @@
             this.label3.Size = new System.Drawing.Size(112, 21);
             this.label3.TabIndex = 2;
             this.label3.Text = "Login History";
+            this.label3.Click += new System.EventHandler(this.guna2PictureBox3_Click);
             // 
             // guna2Panel3
             // 
@@ -188,6 +191,7 @@
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox3.TabIndex = 0;
             this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.Click += new System.EventHandler(this.guna2PictureBox3_Click);
             // 
             // guna2Panel4
             // 
@@ -210,6 +214,7 @@
             this.label4.Size = new System.Drawing.Size(99, 21);
             this.label4.TabIndex = 2;
             this.label4.Text = "Transaction";
+            this.label4.Click += new System.EventHandler(this.guna2PictureBox4_Click);
             // 
             // guna2PictureBox4
             // 
@@ -222,6 +227,7 @@
             this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox4.TabIndex = 0;
             this.guna2PictureBox4.TabStop = false;
+            this.guna2PictureBox4.Click += new System.EventHandler(this.guna2PictureBox4_Click);
             // 
             // guna2Panel5
             // 

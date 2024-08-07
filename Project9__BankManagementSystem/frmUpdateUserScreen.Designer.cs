@@ -389,6 +389,8 @@
             this.txtSearchUser.HoverState.BorderColor = System.Drawing.Color.White;
             this.txtSearchUser.HoverState.Parent = this.txtSearchUser;
             this.txtSearchUser.IconLeftOffset = new System.Drawing.Point(20, 0);
+            this.txtSearchUser.IconRight = global::Project9__BankManagementSystem.Properties.Resources.search;
+            this.txtSearchUser.IconRightOffset = new System.Drawing.Point(20, 0);
             this.txtSearchUser.Location = new System.Drawing.Point(128, 71);
             this.txtSearchUser.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtSearchUser.Name = "txtSearchUser";

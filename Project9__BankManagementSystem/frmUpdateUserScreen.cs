@@ -118,7 +118,7 @@ namespace Project9__BankManagementSystem
                 txtPhoneNumber.Text,
                 txtAccNumber.Text,
                 txtPassword.Text,
-                (int)Permissions);
+                Convert.ToInt32(txtPermissions.Text));
 
             if (User.UpdateUser())
             {

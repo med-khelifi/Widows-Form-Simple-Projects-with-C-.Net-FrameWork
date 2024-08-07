@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project9__BankManagementSystem;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -33,17 +34,48 @@ namespace Project9__BankManagementSystem
 
         private void btnClientList_Click(object sender, EventArgs e)
         {
-            ShowFormInPanel(new frmShowClientList());   
+            if (Global.CurrentUser.CheckPermissions(clsUsers.enPermession.eShowClientsList))
+                ShowFormInPanel(new frmShowClientList());
+            else
+                ShowFormInPanel(new frmAccessDenied());
         }
 
         private void frmManageClientsScreen_Load(object sender, EventArgs e)
         {
-            ShowFormInPanel(new frmShowClientList());
+            if(Global.CurrentUser.CheckPermissions(clsUsers.enPermession.eShowClientsList))
+                 ShowFormInPanel(new frmShowClientList());
+            else
+                ShowFormInPanel(new frmAccessDenied());
         }
 
         private void btnAddNewClient_Click(object sender, EventArgs e)
         {
-            ShowFormInPanel(new frmAddNewClientScreen());
+            if (Global.CurrentUser.CheckPermissions(clsUsers.enPermession.eAddNewClients))
+                ShowFormInPanel(new frmAddNewClientScreen());
+            else
+                ShowFormInPanel(new frmAccessDenied());
+        }
+
+        private void btnUpdateClient_Click(object sender, EventArgs e)
+        {
+            if (Global.CurrentUser.CheckPermissions(clsUsers.enPermession.eUpdateClient))
+                ShowFormInPanel(new frmUpdateClientScreen());
+            else
+                ShowFormInPanel(new frmAccessDenied());
+        }
+
+        private void btnDeleteClient_Click(object sender, EventArgs e)
+        {
+
+            if (Global.CurrentUser.CheckPermissions(clsUsers.enPermession.eDeleteClient))
+                ShowFormInPanel(new frmDeleteClientScreen());
+            else
+                ShowFormInPanel(new frmAccessDenied());
+        }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

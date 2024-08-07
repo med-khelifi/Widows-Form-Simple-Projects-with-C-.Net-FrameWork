@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Project9__BankManagementSystem
 {
-   // private const string UsersFile = "Users.txt";
+  
     internal class clsUsers : clsPerson
     {
         
@@ -20,11 +20,24 @@ namespace Project9__BankManagementSystem
         public bool _MarkedForDelete { set; get; } = false;
 
         private static string FilePath = "Users.txt";
+        private static string LogingHistoryFile = "LoginHistory.txt";
 
-        //public bool ManageUsers = false, ManageClients = false, Transactions = false, LoggingHistory = false, CurrencyExchange = false;
-        
-        int Permissions = 0;
-       
+       public struct stLoginhistory
+        {
+           public DateTime Date;
+           public string UserName,Password;
+           public int Permissions;
+
+            public stLoginhistory(DateTime Date,string UserName,string Password,int Permissions) 
+            {
+                this.Date = Date;
+                this.UserName = UserName;
+                this.Password = Password;
+                this.Permissions = Permissions;
+            }
+        } 
+
+
        public enum enPermession
         {
             eAll = -1,eShowUsersList = 1,eAddNewUser = 2,eUpdateUser = 4,eDeleteUser = 8,
@@ -205,8 +218,6 @@ namespace Project9__BankManagementSystem
             return true;
         }
 
-
-
         public bool CheckPermissions(enPermession Permission)
             {
             if (this._Permessions == (int)enPermession.eAll) return true;
@@ -217,37 +228,64 @@ namespace Project9__BankManagementSystem
             else return false;
             }
 
-/*
-        void SaveToLoginHistory()
+        private string PrepaireLoginRecord(string Sep = "#//#")
         {
-            fstream File;
-            File.open("LoginHistory.txt", ios::app);
-            if (File.is_open())
-            {
-                File << _PrepareUserRecord() << endl;
-                File.close();
-            }
-
+            return DateTime.Now.ToString() + Sep + _AccountNumber + Sep + _Password + Sep +_Permessions.ToString();
         }
 
-        //--------------------------------
-        static vector<vector<string>> GetLoginHistoryList()
+        public void SaveToLoggingHistory()
         {
-            vector<vector<string>> vUsers;
-            string Line;
-            fstream File;
-            File.open("LoginHistory.txt", ios::in);
-            if (File.is_open())
+            if(File.Exists(LogingHistoryFile))
             {
-                while (getline(File, Line))
+                using (StreamWriter writer = new StreamWriter(LogingHistoryFile, true))
                 {
-                    vUsers.push_back(clsString::Split(Line, "#//#"));
+                    
+                    writer.WriteLine(this.PrepaireLoginRecord());
+                   
                 }
-                File.close();
+                return;
             }
-            return vUsers;
+            MessageBox.Show("File Not Exist");
+            
         }
-*/
 
+        private static stLoginhistory ConvertLineToStLoggingRecord(string Line)
+        {
+            string[] SplitedRecord = Line.Split(new string[] { "#//#" }, StringSplitOptions.None);
+
+            return new stLoginhistory(Convert.ToDateTime( SplitedRecord[0]), SplitedRecord[1], SplitedRecord[2], Convert.ToInt32(SplitedRecord[3]));
+        }
+
+        private static List<stLoginhistory> LoadLoggingHistoryFromFile()
+        {
+            if (File.Exists(LogingHistoryFile))
+            {
+                List<stLoginhistory> HistoryList = new List<stLoginhistory>();
+
+                using (StreamReader sr = new StreamReader(LogingHistoryFile))
+                {
+                    string Line;
+
+                    while ((Line = sr.ReadLine()) != null)
+                    {
+                        HistoryList.Add(ConvertLineToStLoggingRecord(Line));
+
+                    }
+                    
+                }
+                return HistoryList;
+            }
+            else
+            {
+                MessageBox.Show("File Not Exist");
+                return null;
+            }
+            
+        }
+
+        public static List<stLoginhistory> GetLoggingHistoryData()
+        {
+            return LoadLoggingHistoryFromFile();
+        }
     }
 }

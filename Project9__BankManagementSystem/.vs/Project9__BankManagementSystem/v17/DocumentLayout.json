@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project9__bankmanagementsystem\\frmshowclientlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|solutionrelative:frmshowclientlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project9__bankmanagementsystem\\frmmanagecurrencyscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|solutionrelative:frmmanagecurrencyscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project9__bankmanagementsystem\\frmaddnewclientscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|solutionrelative:frmaddnewclientscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project9__bankmanagementsystem\\frmmanagecurrencyscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|solutionrelative:frmmanagecurrencyscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project9__bankmanagementsystem\\frmaddnewclientscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|solutionrelative:frmaddnewclientscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project9__bankmanagementsystem\\frmshowcurrencieslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|solutionrelative:frmshowcurrencieslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project9__bankmanagementsystem\\frmmanageclientsscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|solutionrelative:frmmanageclientsscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project9__bankmanagementsystem\\frmshowcurrencieslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|solutionrelative:frmshowcurrencieslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project9__bankmanagementsystem\\frmmanageclientsscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|solutionrelative:frmmanageclientsscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project9__bankmanagementsystem\\clsbankclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|solutionrelative:clsbankclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project9__bankmanagementsystem\\frmaddnewuserscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|solutionrelative:frmaddnewuserscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|c:\\users\\hp\\desktop\\wal3a\\coding\\programmingadvices\\course_14 c# level1\\projects\\project9__bankmanagementsystem\\clscurrency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD38A119-03F6-4108-B993-17F0BBBD14D9}|Project9__BankManagementSystem.csproj|solutionrelative:clscurrency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,88 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmShowClientList.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmShowClientList.cs",
-              "RelativeDocumentMoniker": "frmShowClientList.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmShowClientList.cs [Design]",
-              "RelativeToolTip": "frmShowClientList.cs [Design]",
+              "Title": "frmManageCurrencyScreen.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmManageCurrencyScreen.cs",
+              "RelativeDocumentMoniker": "frmManageCurrencyScreen.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmManageCurrencyScreen.cs",
+              "RelativeToolTip": "frmManageCurrencyScreen.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCUAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T20:41:37.782Z",
+              "WhenOpened": "2024-08-07T19:57:29.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmManageCurrencyScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmManageCurrencyScreen.cs",
+              "RelativeDocumentMoniker": "frmManageCurrencyScreen.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmManageCurrencyScreen.cs [Design]",
+              "RelativeToolTip": "frmManageCurrencyScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T19:57:24.372Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frmManageClientsScreen.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmManageClientsScreen.cs",
-              "RelativeDocumentMoniker": "frmManageClientsScreen.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmManageClientsScreen.cs",
-              "RelativeToolTip": "frmManageClientsScreen.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAhwCoAAAAAAAAA",
+              "Title": "frmShowCurrenciesList.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmShowCurrenciesList.cs",
+              "RelativeDocumentMoniker": "frmShowCurrenciesList.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmShowCurrenciesList.cs",
+              "RelativeToolTip": "frmShowCurrenciesList.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDIAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T20:32:14.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmManageClientsScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmManageClientsScreen.cs",
-              "RelativeDocumentMoniker": "frmManageClientsScreen.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmManageClientsScreen.cs [Design]",
-              "RelativeToolTip": "frmManageClientsScreen.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T20:32:10.338Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmAddNewClientScreen.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmAddNewClientScreen.cs",
-              "RelativeDocumentMoniker": "frmAddNewClientScreen.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmAddNewClientScreen.cs",
-              "RelativeToolTip": "frmAddNewClientScreen.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAuwEMAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T19:47:32.211Z",
+              "WhenOpened": "2024-08-07T19:45:47.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmAddNewClientScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmAddNewClientScreen.cs",
-              "RelativeDocumentMoniker": "frmAddNewClientScreen.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmAddNewClientScreen.cs [Design]",
-              "RelativeToolTip": "frmAddNewClientScreen.cs [Design]",
+              "Title": "frmShowCurrenciesList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmShowCurrenciesList.cs",
+              "RelativeDocumentMoniker": "frmShowCurrenciesList.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmShowCurrenciesList.cs [Design]",
+              "RelativeToolTip": "frmShowCurrenciesList.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T19:41:31.687Z",
+              "WhenOpened": "2024-08-07T19:39:28.195Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmAddNewUserScreen.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmAddNewUserScreen.cs",
-              "RelativeDocumentMoniker": "frmAddNewUserScreen.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\frmAddNewUserScreen.cs [Design]",
-              "RelativeToolTip": "frmAddNewUserScreen.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "clsCurrency.cs",
+              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\clsCurrency.cs",
+              "RelativeDocumentMoniker": "clsCurrency.cs",
+              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\clsCurrency.cs",
+              "RelativeToolTip": "clsCurrency.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAnwJQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T19:48:25.276Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "clsBankClient.cs",
-              "DocumentMoniker": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\clsBankClient.cs",
-              "RelativeDocumentMoniker": "clsBankClient.cs",
-              "ToolTip": "C:\\Users\\hp\\Desktop\\Wal3a\\Coding\\ProgrammingAdvices\\course_14 C# Level1\\Projects\\Project9__BankManagementSystem\\clsBankClient.cs",
-              "RelativeToolTip": "clsBankClient.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAYwFsAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T14:58:54.464Z",
+              "WhenOpened": "2024-08-07T19:21:58.134Z",
               "EditorCaption": ""
             }
           ]

@@ -20,3 +20,15 @@ C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects
 C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmManageClientsScreen.resources
 C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmShowClientList.resources
 C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmAddNewClientScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmUpdateClientScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmDeleteClientScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmAccessDenied.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmManageLoggingHistory.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmShowLoggingHistory.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmManageTransactionScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmDepositScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmWithDrawScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmTransferScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmShowTransferLogsList.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmManageCurrencyScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmShowCurrenciesList.resources

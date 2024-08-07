@@ -17,6 +17,7 @@ namespace Project9__BankManagementSystem
 
         private static string FilePath = "Clients.txt";
 
+        private static string TransferLogFile = "TransferLogs.txt";
         public clsBankClient() : base() { }
 
         public clsBankClient(string FirstName, string LastName, string Email, string Phone,
@@ -188,6 +189,106 @@ namespace Project9__BankManagementSystem
             return true;
         }
 
-        
+       public bool Deposit(double Amount)
+        {
+            if (Amount < 1)
+                return false;
+
+            _Balance += Amount;
+            UpdateClient();
+            return true;
+        }
+
+        public bool WithDraw(double Amount)
+        {
+            if (Amount < 1)
+                return false;
+
+            _Balance -= Amount;
+            UpdateClient();
+            return true;
+        }
+
+        private string PrepareTransferRecord(clsBankClient receiver, double amount, string separator = "#//#")
+        {
+            string str = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + separator;
+            str += _AccountNumber + separator + receiver._AccountNumber + separator;
+            str += amount.ToString() ;
+
+            return str;
+        }
+
+        private void SaveTransferOperation(clsBankClient receiver, double amount)
+        {
+            if (File.Exists(TransferLogFile))
+            {
+                using (StreamWriter file = new StreamWriter(TransferLogFile, true))
+                {
+                    file.WriteLine(PrepareTransferRecord(receiver, amount));
+                }
+            }
+            else
+            {
+                MessageBox.Show("File Not Found");
+            }
+            
+        }
+
+        public bool Transfer(ref clsBankClient receiver, double amount)
+        {
+            if (_Balance < amount) return false;
+
+            this.WithDraw(amount);
+            receiver.Deposit(amount);
+
+            SaveTransferOperation(receiver, amount);
+            return true;
+        }
+
+        public struct stTransfer
+        {
+            public string Date;
+            public string SenderAccount;
+            public string ReceiverAccount;
+            public float Amount;
+            
+        }
+
+        private static stTransfer ConvertLineToTransferRecord(string line)
+        {
+            stTransfer transfer = new stTransfer();
+            string[] parts = line.Split(new string[] { "#//#" }, StringSplitOptions.None);
+
+            transfer.Date = parts[0];
+            transfer.SenderAccount = parts[1];
+            transfer.ReceiverAccount = parts[2];
+            transfer.Amount = float.Parse(parts[3]);
+            // Assuming there are more fields, add them here if needed
+            // transfer.SenderBalance = float.Parse(parts[4]);
+            // transfer.ReceiverBalance = float.Parse(parts[5]);
+            // transfer.CurrentUserAccount = parts[6];
+
+            return transfer;
+        }
+
+        public static List<stTransfer> GetTransferOperationList()
+        {
+            List<stTransfer> transferList = new List<stTransfer>();
+
+            if (File.Exists("TransferLogs.txt"))
+            {
+                using (StreamReader file = new StreamReader("TransferLogs.txt"))
+                {
+                    string line;
+                    while ((line = file.ReadLine()) != null)
+                    {
+                        transferList.Add(ConvertLineToTransferRecord(line));
+                    }
+                }
+            }
+
+            return transferList;
+        }
+
     }
 }

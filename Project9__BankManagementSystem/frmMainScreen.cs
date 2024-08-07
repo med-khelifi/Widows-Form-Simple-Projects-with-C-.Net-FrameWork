@@ -40,5 +40,23 @@ namespace Project9__BankManagementSystem
             frmManageClientsScreen frm = new frmManageClientsScreen();
             frm.ShowDialog();
         }
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        {
+            frmManageLoggingHistory frm = new frmManageLoggingHistory();
+            frm.ShowDialog();
+        }
+
+        private void guna2PictureBox4_Click(object sender, EventArgs e)
+        {
+            frmManageTransactionScreen frm = new frmManageTransactionScreen();
+            frm.ShowDialog();
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+            frmManageCurrencyScreen frm = new frmManageCurrencyScreen();
+            frm.ShowDialog();
+        }
     }
 }

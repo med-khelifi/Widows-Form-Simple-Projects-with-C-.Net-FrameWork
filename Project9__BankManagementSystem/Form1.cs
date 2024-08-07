@@ -61,17 +61,23 @@ namespace Project9__BankManagementSystem
 
         private async void btnLogin_Click(object sender, EventArgs e)
         {
+            if(txtUserName.Text == "" || txtPassword.Text == "")
+            {
+                MessageBox.Show("Fill All Boxes To Loging", "Empty Box", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                return;
+            }
             pbarLoadingLoginProgress.Visible = true;
             btnLogin.Visible = false;
             pbarLoadingLoginProgress.Start();
             
-            await Task.Delay(3000);
+            await Task.Delay(2500);
             pbarLoadingLoginProgress.Stop();
 
             clsUsers CurrentUser;
 
             if((CurrentUser = clsUsers.FindUser(txtUserName.Text,txtPassword.Text)) != null)
             {
+                CurrentUser.SaveToLoggingHistory();
                 Global.CurrentUser = CurrentUser;
                 frmMainScreen frm = new frmMainScreen();
                 frm.ShowDialog();
@@ -91,6 +97,11 @@ namespace Project9__BankManagementSystem
         private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void txtUserName_TextChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }
