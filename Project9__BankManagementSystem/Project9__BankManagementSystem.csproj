@@ -97,6 +97,12 @@
     <Compile Include="frmDepositScreen.Designer.cs">
       <DependentUpon>frmDepositScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmExchangeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExchangeScreen.Designer.cs">
+      <DependentUpon>frmExchangeScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,6 +187,12 @@
     <Compile Include="frmUpdateClientScreen.Designer.cs">
       <DependentUpon>frmUpdateClientScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUpdateCurrencyRateScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateCurrencyRateScreen.Designer.cs">
+      <DependentUpon>frmUpdateCurrencyRateScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmUpdateUserScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -216,6 +228,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmDepositScreen.resx">
       <DependentUpon>frmDepositScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExchangeScreen.resx">
+      <DependentUpon>frmExchangeScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMainScreen.resx">
       <DependentUpon>frmMainScreen.cs</DependentUpon>
@@ -258,6 +273,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmUpdateClientScreen.resx">
       <DependentUpon>frmUpdateClientScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateCurrencyRateScreen.resx">
+      <DependentUpon>frmUpdateCurrencyRateScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUpdateUserScreen.resx">
       <DependentUpon>frmUpdateUserScreen.cs</DependentUpon>

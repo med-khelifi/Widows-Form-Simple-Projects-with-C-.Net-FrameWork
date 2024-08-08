@@ -22,7 +22,7 @@ namespace Project9__BankManagementSystem
 
         private void ResetForm()
         {
-            txtPassword.PasswordChar = '*';
+            txtPassword.PasswordChar = '\u25CF';
             isPasswordHidden = true;
             txtPassword.IconRight = Properties.Resources.hidden;
 
@@ -47,7 +47,7 @@ namespace Project9__BankManagementSystem
             }
             else
             {
-                txtPassword.PasswordChar = '*';
+                txtPassword.PasswordChar = '\u25CF';
                 isPasswordHidden = true;
                 txtPassword.IconRight = Properties.Resources.hidden;
             }

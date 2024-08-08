@@ -9,6 +9,7 @@ public class clsCurrecy
     private string _currencyName;
     private float _rate;
 
+    public clsCurrecy () { }
     public clsCurrecy(string country, string currencyCode, string currencyName, float rate)
     {
         _country = country;
@@ -84,10 +85,11 @@ public class clsCurrecy
     public string CurrencyName => _currencyName;
     public float Rate => _rate;
 
-    public void UpdateRate(float newRate)
+    public bool UpdateRate(float newRate)
     {
         _rate = newRate;
         Update();
+        return true;
     }
 
     public static clsCurrecy FindByCode(string currencyCode)
@@ -147,14 +149,14 @@ public class clsCurrecy
         return LoadCurrencyDataFromFile();
     }
 
-    public float ConvertToUSD(float amount)
+    public double ConvertToUSD(double amount)
     {
         return amount / _rate;
     }
 
-    public float ConvertToOtherCurrency(float amount, clsCurrecy currency)
+    public double ConvertToOtherCurrency(double amount, clsCurrecy currency)
     {
-        float amountInUsd = ConvertToUSD(amount);
+        double amountInUsd = ConvertToUSD(amount);
         return currency.CurrencyCode == "USD" ? amountInUsd : amountInUsd * currency.Rate;
     }
 }

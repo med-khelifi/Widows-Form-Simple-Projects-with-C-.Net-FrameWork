@@ -32,3 +32,5 @@ C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects
 C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmShowTransferLogsList.resources
 C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmManageCurrencyScreen.resources
 C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmShowCurrenciesList.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmUpdateCurrencyRateScreen.resources
+C:\Users\hp\Desktop\Wal3a\Coding\ProgrammingAdvices\course_14 C# Level1\Projects\Project9__BankManagementSystem\obj\Debug\Project9__BankManagementSystem.frmExchangeScreen.resources

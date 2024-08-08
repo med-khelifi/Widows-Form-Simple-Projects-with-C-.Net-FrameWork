@@ -50,5 +50,21 @@ namespace Project9__BankManagementSystem
             else
                 ShowFormInPanel(new frmAccessDenied());
         }
+
+        private void btnWithdraw_Click(object sender, EventArgs e)
+        {
+            if (Global.CurrentUser.CheckPermissions(clsUsers.enPermession.eUpdateCurrecyRate))
+                ShowFormInPanel(new frmUpdateCurrencyRateScreen());
+            else
+                ShowFormInPanel(new frmAccessDenied());
+        }
+
+        private void btnTransfer_Click(object sender, EventArgs e)
+        {
+            if (Global.CurrentUser.CheckPermissions(clsUsers.enPermession.eExchangeCurrency))
+                ShowFormInPanel(new frmExchangeScreen());
+            else
+                ShowFormInPanel(new frmAccessDenied());
+        }
     }
 }

@@ -18,9 +18,12 @@ namespace Project9__BankManagementSystem
             if(Global.CurrentUser != null)
                 lblCurrentUser.Text = "User : " + Global.CurrentUser.GetFullName();
             else
-                lblCurrentUser.Text = "User : No User Loged in";
+                lblCurrentUser.Text = "User : No User Logged in";
 
-            lblCurrentTime.Text = DateTime.Now.ToString();
+            lblCurrentTime.Text = DateTime.Now.ToString("hh : mm  tt - dddd MMMM d");
+
+            txtWelcome.Text = "Welcome Back Mr \n" + Global.CurrentUser.GetFullName() +
+                "\nSelect One Of The Following Options To Continue ";
         }
 
         private void btnLogOutCliked(object sender, EventArgs e)

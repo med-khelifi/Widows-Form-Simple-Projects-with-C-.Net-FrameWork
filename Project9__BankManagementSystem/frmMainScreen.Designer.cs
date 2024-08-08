@@ -48,7 +48,7 @@
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.guna2PictureBox6 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.txtWelcome = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel2.SuspendLayout();
@@ -68,7 +68,7 @@
             this.lblCurrentTime.AutoSize = true;
             this.lblCurrentTime.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCurrentTime.ForeColor = System.Drawing.Color.Transparent;
-            this.lblCurrentTime.Location = new System.Drawing.Point(279, 34);
+            this.lblCurrentTime.Location = new System.Drawing.Point(341, 19);
             this.lblCurrentTime.Name = "lblCurrentTime";
             this.lblCurrentTime.Size = new System.Drawing.Size(187, 21);
             this.lblCurrentTime.TabIndex = 0;
@@ -79,7 +79,7 @@
             this.lblCurrentUser.AutoSize = true;
             this.lblCurrentUser.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCurrentUser.ForeColor = System.Drawing.Color.Transparent;
-            this.lblCurrentUser.Location = new System.Drawing.Point(32, 34);
+            this.lblCurrentUser.Location = new System.Drawing.Point(12, 19);
             this.lblCurrentUser.Name = "lblCurrentUser";
             this.lblCurrentUser.Size = new System.Drawing.Size(57, 21);
             this.lblCurrentUser.TabIndex = 1;
@@ -89,7 +89,7 @@
             // 
             this.guna2Panel1.Controls.Add(this.label1);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
-            this.guna2Panel1.Location = new System.Drawing.Point(606, 360);
+            this.guna2Panel1.Location = new System.Drawing.Point(417, 360);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(154, 113);
@@ -174,7 +174,7 @@
             // 
             this.guna2Panel3.Controls.Add(this.label3);
             this.guna2Panel3.Controls.Add(this.guna2PictureBox3);
-            this.guna2Panel3.Location = new System.Drawing.Point(296, 360);
+            this.guna2Panel3.Location = new System.Drawing.Point(232, 360);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
             this.guna2Panel3.Size = new System.Drawing.Size(113, 113);
@@ -197,7 +197,7 @@
             // 
             this.guna2Panel4.Controls.Add(this.label4);
             this.guna2Panel4.Controls.Add(this.guna2PictureBox4);
-            this.guna2Panel4.Location = new System.Drawing.Point(296, 209);
+            this.guna2Panel4.Location = new System.Drawing.Point(232, 209);
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
             this.guna2Panel4.Size = new System.Drawing.Size(113, 113);
@@ -233,7 +233,7 @@
             // 
             this.guna2Panel5.Controls.Add(this.label5);
             this.guna2Panel5.Controls.Add(this.guna2PictureBox5);
-            this.guna2Panel5.Location = new System.Drawing.Point(613, 209);
+            this.guna2Panel5.Location = new System.Drawing.Point(417, 209);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.ShadowDecoration.Parent = this.guna2Panel5;
             this.guna2Panel5.Size = new System.Drawing.Size(141, 113);
@@ -269,7 +269,7 @@
             // 
             this.guna2Panel6.Controls.Add(this.label6);
             this.guna2Panel6.Controls.Add(this.guna2PictureBox6);
-            this.guna2Panel6.Location = new System.Drawing.Point(15, 209);
+            this.guna2Panel6.Location = new System.Drawing.Point(39, 209);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.ShadowDecoration.Parent = this.guna2Panel6;
             this.guna2Panel6.Size = new System.Drawing.Size(119, 113);
@@ -292,7 +292,7 @@
             // 
             this.guna2PictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox6.Image = global::Project9__BankManagementSystem.Properties.Resources.management;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(21, 15);
+            this.guna2PictureBox6.Location = new System.Drawing.Point(27, 15);
             this.guna2PictureBox6.Name = "guna2PictureBox6";
             this.guna2PictureBox6.ShadowDecoration.Parent = this.guna2PictureBox6;
             this.guna2PictureBox6.Size = new System.Drawing.Size(64, 64);
@@ -301,24 +301,25 @@
             this.guna2PictureBox6.TabStop = false;
             this.guna2PictureBox6.Click += new System.EventHandler(this.ManageUser_Cliked);
             // 
-            // label7
+            // txtWelcome
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(228, 107);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(286, 21);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Welcome Mr Mohamed In Our Bank ";
+            this.txtWelcome.AutoSize = true;
+            this.txtWelcome.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWelcome.ForeColor = System.Drawing.Color.Transparent;
+            this.txtWelcome.Location = new System.Drawing.Point(61, 103);
+            this.txtWelcome.Name = "txtWelcome";
+            this.txtWelcome.Size = new System.Drawing.Size(371, 25);
+            this.txtWelcome.TabIndex = 7;
+            this.txtWelcome.Text = "Welcome Mr Mohamed In Our Bank ";
+            this.txtWelcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmMainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DimGray;
-            this.ClientSize = new System.Drawing.Size(800, 500);
-            this.Controls.Add(this.label7);
+            this.ClientSize = new System.Drawing.Size(612, 489);
+            this.Controls.Add(this.txtWelcome);
             this.Controls.Add(this.guna2Panel6);
             this.Controls.Add(this.guna2Panel5);
             this.Controls.Add(this.guna2Panel4);
@@ -375,6 +376,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label txtWelcome;
     }
 }

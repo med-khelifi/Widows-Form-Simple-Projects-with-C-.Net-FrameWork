@@ -81,6 +81,7 @@
             this.btnTransfer.TabIndex = 0;
             this.btnTransfer.Text = "Exchange Currecy";
             this.btnTransfer.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnTransfer.Click += new System.EventHandler(this.btnTransfer_Click);
             // 
             // btnWithdraw
             // 
@@ -94,10 +95,11 @@
             this.btnWithdraw.Location = new System.Drawing.Point(31, 293);
             this.btnWithdraw.Name = "btnWithdraw";
             this.btnWithdraw.ShadowDecoration.Parent = this.btnWithdraw;
-            this.btnWithdraw.Size = new System.Drawing.Size(166, 54);
+            this.btnWithdraw.Size = new System.Drawing.Size(128, 54);
             this.btnWithdraw.TabIndex = 0;
             this.btnWithdraw.Text = "Update Rate";
             this.btnWithdraw.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnWithdraw.Click += new System.EventHandler(this.btnWithdraw_Click);
             // 
             // btnDeposit
             // 
